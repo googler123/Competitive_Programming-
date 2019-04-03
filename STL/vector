@@ -1,5 +1,5 @@
 Vector:- 
-
+//By V_V_T
 Vector is a list of elements which has a dynamic size unlike array but it has contiguous memory allocation
 Same as array. 
 
