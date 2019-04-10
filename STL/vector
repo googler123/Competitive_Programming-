@@ -16,3 +16,4 @@ Some functions associated with vector:-
 4) v.back()  - returns last element of the vector.
 5) v.begin() -address of the first element of the vector.
 6) v.end() - returns address where the vector ends (if the last address is x then it will return x+ sizeof(element)).
+3) v.max_size() - returns the maximum storage capacity of vector.
