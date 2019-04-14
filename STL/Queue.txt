@@ -11,3 +11,5 @@ Functions:-
 2) q.push(x) - push x in the queue.
 3) q.pop() - pop the first element of the queue.
 4) q.empty() - returns true if queue is empty.	
+
+Thus,to check if the queue is empty th condition will be "if(!q.empty)"
