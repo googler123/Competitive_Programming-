@@ -1,6 +1,9 @@
+//###_V_V_T_###//
 #include <bits/stdc++.h>
-using namespace std;
 #define mx 1000
+
+using namespace std;
+
 bool vis[mx+1];
 vector<long int > v[mx+1];
 
