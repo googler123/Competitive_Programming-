@@ -3,7 +3,7 @@ Vector:-
 Vector is a list of elements which has a dynamic size unlike array but it has contiguous memory allocation
 Same as array. 
 
-Declaring a vector:-    vector< data type(user defined or fundamental) > v;
+Declaring a vector:-    vector< data type(user defined or fundamental) > variable_name;
 
 Accessing vector elements:- since it has contiguous memory allocation it can be accessed as v[i] which represents
 i+1th element of the vector..
