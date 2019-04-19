@@ -3,7 +3,6 @@
 This can be done by overloading the operator < and writing the function for that.....
 
 
-
 suppose we are implementing dijkstra's algorithm and in dijkstra's algorithm the priority is given according to the 
 distance from the starting node.The node which is nearer to the starting node gets higher priority.. 
 
