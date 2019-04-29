@@ -38,11 +38,11 @@ int query(int p,int st,int en,int l,int r)
         delay[p]=0;
     }
     //There are three cases consider we want sum from array[6] to array[15] then l=6 and r=10
-    //Case 1:- Suppose p stores sum of elements from array[3] to array[5] then processing p is worthless
+    //Case 1:-  Suppose p stores sum of elements from array[3] to array[5] then processing p is worthless
                //because we don't need array[3] or array[4] or array[5] so we should return 0 from here....
-    //Case 2:- Suppose p stores sum of elements from array[5] to array[8] and if we add the value at node p which is sum[5,8]
+    //Case 2:-  Suppose p stores sum of elements from array[5] to array[8] and if we add the value at node p which is sum[5,8]
                //then it is not good because we are adding array[5] which we don't need so proceed to the children of node p...
-    //Case 3:- Suppose p stores sum of elements from array[9] to array[12] so we can directly add the value of node p and return
+    //Case 3:-  Suppose p stores sum of elements from array[9] to array[12] so we can directly add the value of node p and return
                //because it's left child 2*p will be having sum[9,10] and sum[11,12] so we can directly add value at node p and return
 
 
