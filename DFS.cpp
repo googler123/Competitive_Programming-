@@ -1,6 +1,6 @@
 //###_V_V_T_###//
 #include <bits/stdc++.h>
-#define mx 1000
+#define mx 1001
 
 using namespace std;
 
