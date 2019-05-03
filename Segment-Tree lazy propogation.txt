@@ -13,6 +13,7 @@ int delay[4*n];//For delay in lazy propagation.We will push the value to its chi
 
 void build(int p,int st,int en)
 {
+
     //Building the segment tree p=node index which stores the value of range [st,en].....
     //if the node is leaf node then stop because that node will be storing the value of single node because st==en and return
     //if it's not a leaf then build the left(2*p) subtree and right(2*p+1) subtree then store the value at node p
