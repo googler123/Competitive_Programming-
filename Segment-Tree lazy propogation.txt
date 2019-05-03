@@ -25,6 +25,7 @@ void build(int p,int st,int en)
     build(2*p,st,mid);
     build(2*p+1,mid+1,en);
     seg[p]=seg[2*p]+seg[2*p+1];
+    
 };
 
 int query(int p,int st,int en,int l,int r)
