@@ -4,7 +4,7 @@ It has dynamic size but not contiguous allocation.
 
 Declaration:-
 
-		queue< data type(user defined or fundamental) > q;
+	queue< data type(user defined or fundamental) > q;
 
 Functions:-
 
