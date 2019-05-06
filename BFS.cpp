@@ -32,7 +32,7 @@ void BFS(int p)
             }
         }
     }
-};
+} ;
 
 int main()
 {
