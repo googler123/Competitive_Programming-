@@ -21,8 +21,8 @@ void BFS(int p)
     {
         p=q.front();//getting the front
         q.pop();
-        cout<<p<<endl;
-        sz=v[p].size();
+        cout<<p<<endl ;
+        sz=v[p].size() ;
         for(i=0;i<sz;i++)
         {
             if(vis[v[p][i]]==0)//if the node is not visited pushing that in the queue.....
