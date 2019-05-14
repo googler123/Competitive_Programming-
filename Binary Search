@@ -17,7 +17,7 @@ int binarysearch(int l,int r,int fnd)//This function returns the index where we 
         {
             return mid;
         }
-        else if(arr[mid]>fnd)
+        else if(arr[mid] > fnd)
         {
             r=mid-1;
         }
