@@ -26,7 +26,7 @@ int main()
     int n,m;//n is number of nodes in graph and m is number of edges in the graph m=(n-1) from tree.....
     cin>>n>>m;
     int i,a,b;
-    for(i=0;i<m;i++)
+    for(i=0; i<m ;i++)
     {
         
         cin>>a>>b;
