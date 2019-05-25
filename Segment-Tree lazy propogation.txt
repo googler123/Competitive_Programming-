@@ -31,7 +31,7 @@ void build(int p,int st,int en)
 
 int query(int p,int st,int en,int l,int r)
 {
-    ///Below if block is needed only in lazy propagation
+    //Below if block is needed only in lazy propagation
     //If there is any delay at node p then propagate the delay to it's child 2*p and 2*p+1 and make delay[p]=0.....
     if(delay[p]>0)
     {
