@@ -8,8 +8,8 @@ using namespace std;
 bool vis[mx+1];
 vector<long int > v[mx+1];
 
-//BFS is a level order traversal from the starting node which means that the nodes will
-//be visited according to the minimum number of nodes that connects the current node to
+// BFS is a level order traversal from the starting node which means that the nodes will
+// be visited according to the minimum number of nodes that connects the current node to
 //the starting node.....
 
 void BFS(int p)
