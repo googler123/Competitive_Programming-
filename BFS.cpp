@@ -15,8 +15,8 @@ vector<long int > v[mx+1];
 void BFS(int p)
 {
     int i,sz;
-    queue<long int > q;
-    q.push(p);
+     queue<long int > q;
+     q.push(p);
     vis[p]=1;
     while(!q.empty())
     {
