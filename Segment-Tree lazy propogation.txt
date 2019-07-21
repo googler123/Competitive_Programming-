@@ -2,7 +2,7 @@
 
 
   /*Segment tree for range sum query and update*/
-  /*update(p,st,en,l,r,val):- here p is the index of current node(segment tree) which stores values of array index range [st,en]
+  /*update(p,st,en,l,r,val) :- here p is the index of current node(segment tree) which stores values of array index range [st,en]
                             and val should be added to each element of array from index l to r*/
   /*query(p,st,en,l,r) :- Query the sum of elements of the array which has index from l to r*/
 
